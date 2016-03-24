@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'TheCreativeTruth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangoappsdb',
+        'NAME': 'DjangoAppsQA',
         'USER': 'cfawdev',
         'PASSWORD': 'Ngaue1992',
         'HOST': 'djangoappsdb.cym14jm9u5vp.us-west-2.rds.amazonaws.com',
