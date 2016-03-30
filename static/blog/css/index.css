@@ -1,8 +1,12 @@
 .navbar-static-top {
-  margin-bottom: 1900px;
+  margin-bottom: 19px;
 }
 
 .navbar-full-custom {
     box-shadow: none;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.nav > li > a:hover {
+    background-color: red;
 }
