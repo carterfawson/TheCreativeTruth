@@ -19,6 +19,7 @@ div.container {
     background-color: #FFFFFF;
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
 }
 
 nav {
