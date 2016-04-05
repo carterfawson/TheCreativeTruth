@@ -29,11 +29,13 @@ nav {
 div.headliners {
     width: 65%;
     text-align: center;
+    float: left;
 }
 
 div.secondary {
     width: 30%;
     text-align: center;
+    float: right;
 }
 
 img.head-img {
