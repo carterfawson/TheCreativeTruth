@@ -38,8 +38,9 @@ div.secondary {
     float: right;
 }
 
-.headliner {
+div.headliner {
     width: 100%;
+    text-align: center;
 }
 
 img.head-img {
