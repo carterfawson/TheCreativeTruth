@@ -29,3 +29,7 @@ nav {
 div.head-story {
     width: 100%;
 }
+
+div.head-story > img {
+    width: 100%;
+}
