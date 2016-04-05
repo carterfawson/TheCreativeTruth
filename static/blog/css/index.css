@@ -8,5 +8,13 @@
 }
 
 .nav > li > a:hover {
-    background-color: red;
+    color: red;
+}
+
+h1.blog-title {
+    text-align: center;
+}
+
+nav {
+    background-color: #FFFFFF;
 }
