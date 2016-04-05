@@ -26,11 +26,30 @@ nav {
     margin-bottom: 0;
 }
 
-div.head-story {
+div.headliners {
     width: 70%;
     text-align: center;
 }
 
-div.head-story > img {
-    width: 90%;
+div.secondary {
+    width: 30%;
+    text-align: center;
+}
+
+img.head-img {
+    width: 30%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.head-text {
+    width: 60%;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img.second {
+    width: 80%;
 }
