@@ -40,12 +40,11 @@ div.secondary {
 
 div.headliner {
     width: 100%;
-    text-align: center;
     margin-left: 5%;
 }
 
 img.head-img {
-    width: 65%;
+    width: 60%;
     float: left;
 }
 
