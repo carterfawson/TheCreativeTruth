@@ -1,127 +1,66 @@
-{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <title>Blog Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static 'blog/css/bootstrap.min.css' %}" rel="stylesheet">
-
-
-    <!-- Custom styles for this template -->
-    <link href="{% static 'blog/css/blog.css' %}" rel="stylesheet">
-    <link href="{% static 'blog/css/index.css' %}" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-  <div class="blog-header">
-        <h1 class="blog-title">The Creative Truth</h1>
-        <p class="lead blog-description">Turning information into wisdom since 2016</p>
-  </div>
-
-<nav class="navbar navbar-default navbar-static-top">
-
-    <!-- The navbar items need to be Gotham in ALL CAPS -->
-    <!-- I also need to change the shading on the bottom and get rid of the color so that there is no outline to the navbar. -->
-
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-full-custom">
-          <ul class="nav navbar-nav">
-            <li><a href="#">SOCIAL</a></li>
-            <li><a href="#about">POLITICS</a></li>
-            <li><a href="#contact">SCIENCE/TECH</a></li>
-            <li><a href="#contact">SPORTS</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <title>TCT: Post Title</title>
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]-->
+</head>
+<body>
+<!-- Header, branding, and navigation(and search) -->
+<header>
+    <h1>The Creative Truth</h1>
+    <search>This is the search function</search>
+    <nav>
+        <ul>
+            <li><a href="social.html" title="social">SOCIAL</a></li>
+            <li><a href="politics.html" title="politics">POLITICS</a></li>
+            <li><a href="science-tech.html" title="science-tech">SCIENCE/TECH</a></li>
+            <li><a href="sports.html" title="sports">SPORTS</a></li>
+        </ul>
     </nav>
+</header>
+<!-- 3 most recent posts -->
+<main>
+    <article>
+        <h2>Article Title</h2>
+        <p>article text</p>
+        <img/> <!-- this is an infographic placeholder -->
+        <footer>
+            <section>
+                <h3>About the author:</h3>
+                <h4>author name</h4>
+                <p>author blurb</p>
+            </section>
+        </footer>
+    </article>
+</main>
+<!-- Our own ads for following us, sharing, and contributing -->
+<section>
+    <article>
+        <h3>Follow Us! ad</h3>
+            <h4>We are on Twitter, and especially look us up on GitHub to see all of our code</h4>
+            <p>
+                <a href="https://github.com/carterfawson/TheCreativeTruth">GitHub</a>
+                <a href="https://twitter.com/CarterFawson">Twitter</a>
+            </p>
+    </article>
+    <article>
+        <h3>Share us!</h3>
+            <h4>tweet that you read our blog! Share our most recent article!</h4>
+     </article>
+    <article>
+        <h3>Give us suggestions</h3>
+    </article>
+    <article>
+        <img href="aboutus-ad.jpg">
+        <button><h3>About us</h3></button>
+    </article>
 
-    <div class="container">
+</section>
+<!-- Links to our social media, about us, and contact pages -->
+<footer>
+    <h2>contact & social media</h2>
+</footer>
 
-      <div class="row">
-
-        <div class="col-sm-8 blog-main">
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Tsunami of Information</h2>
-            <p class="blog-post-meta">I just wrote it<a href="#">Carter</a></p>
-
-            <p>So I think that it might be cool to have one post that we can have on here to start out with about what we do and how we turn information into wisdom. Some cool infographic about how we are bombarded with so much information every single day that can be hard to sort through. There are politicians that are constantly making claims and promises. Sports teams that are touted to win the championship. Social stats that are quoted without really any legitimate sources or knowledge of whether or not the correct methods of analysis were used. This past year alone we have seen the emergence of evidence that there have been tens of thousands of academic studies, put in journals and used in policy decisions, that did not use sound research methods and ultimately could not be reproduced. Here at The Creative Truth we want to work towards a more informed society, but even better than that we want to work towards a wiser society. A society that knows the truth, backed by sound data. That's the society that we believe can make a better future.</p>
-          </div><!-- /.blog-post -->
-        </div>
-
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
-
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
-  </body>
+</body>
 </html>

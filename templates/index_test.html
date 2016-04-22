@@ -1,0 +1,90 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Creative Truth</title>
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]-->
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'blog/css/bootstrap.min.css' %}" rel="stylesheet">
+</head>
+<body>
+<!-- Header, branding, and navigation(and search) -->
+<header class="container-fluid">
+    <h1>The Creative Truth</h1>
+    <search>This is the search function</search>
+    <nav>
+        <ul>
+            <li><a href="social.html" title="social">SOCIAL</a></li>
+            <li><a href="politics.html" title="politics">POLITICS</a></li>
+            <li><a href="science-tech.html" title="science-tech">SCIENCE/TECH</a></li>
+            <li><a href="sports.html" title="sports">SPORTS</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- 3 most recent posts -->
+<main class="container">
+    <div class="row main-row">
+        <div class="col-sm-8">
+            <article class="col-sm-12">
+                <h2>Article 1</h2>
+                <section>
+                    <img/>
+                    <p>article description</p>
+                </section>
+            </article>
+            <article class="col-sm-12">
+                <h2>Article 2</h2>
+                <section>
+                    <img/>
+                    <p>article description</p>
+                </section>
+            </article>
+            <article class="col-sm-12">
+                <h2>Article 3</h2>
+                <section>
+                    <img/>
+                    <p>article description</p>
+                </section>
+            </article>
+        </div>
+    <!-- Our own ads for following us, sharing, and contributing -->
+        <div class="col-sm-4">
+            <section>
+                <article>
+                    <h3>Follow Us! ad</h3>
+                        <h4>We are on Twitter, and especially look us up on GitHub to see all of our code</h4>
+                        <p>
+                            <a href="https://github.com/carterfawson/TheCreativeTruth">GitHub</a>
+                            <a href="https://twitter.com/CarterFawson">Twitter</a>
+                        </p>
+                </article>
+                <article>
+                    <h3>Share us!</h3>
+                        <h4>tweet that you read our blog! Share our most recent article!</h4>
+                 </article>
+                <article>
+                    <h3>Give us suggestions</h3>
+                </article>
+                <article>
+                    <img href="aboutus-ad.jpg">
+                    <button><h3>About us</h3></button>
+                </article>
+            </section>
+        </div>
+    </div>
+</main>
+<!-- Links to our social media, about us, and contact pages -->
+<footer>
+    <h2>contact & social media</h2>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
