@@ -8,7 +8,7 @@ def home(request):
     context = RequestContext(request)
     return render(
         request,
-        '../../TheCreativeTruth/templates/index_test.html',
+        '../../TheCreativeTruth/templates/index.html',
         context
     )
 
