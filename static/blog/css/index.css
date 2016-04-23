@@ -1,3 +1,10 @@
 .top-buffer { margin-top:20px; }
 
 .img-headline {margin: 0 auto}
+
+.imghead {
+    background-image: url('../static/blog/images/header.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
