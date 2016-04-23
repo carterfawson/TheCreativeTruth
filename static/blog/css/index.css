@@ -4,8 +4,9 @@
 
 .imghead {
     background-image: url('/static/blog/images/header.jpeg');
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     height: 200px;
     color: #ffffff;
+    margin-top: 0;
 }
