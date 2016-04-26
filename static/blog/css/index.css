@@ -14,3 +14,8 @@
 .navbar-home {
     margin-bottom: 0;
 }
+
+.navbar-container {
+    height: 100%;
+    width: 70%;
+}
