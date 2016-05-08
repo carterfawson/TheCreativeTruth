@@ -17,17 +17,26 @@
 <!-- Header, branding, and navigation(and search) -->
 <header>
     <h1 class="imghead text-hide">The Creative Truth</h1>
-    <nav>
-       <div class="container">
-            <ul class="nav nav-justified">
-                <li><a href="social.html" title="social">SOCIAL</a></li>
-                <li><a href="politics.html" title="politics">POLITICS</a></li>
-                <li><a href="science-tech.html" title="science-tech">SCIENCE/TECH</a></li>
-                <li><a href="sports.html" title="sports">SPORTS</a></li>
-            </ul>
-        </div>
-    </nav>
-    <p>Make sure to add a searchbar somewhere!</p>
+    <nav id="header" class="navbar navbar-fixed-top">
+            <div id="header-container" class="container navbar-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="social.html" title="social">SOCIAL</a></li>
+                        <li><a href="politics.html" title="politics">POLITICS</a></li>
+                        <li><a href="science-tech.html" title="science-tech">SCIENCE/TECH</a></li>
+                        <li><a href="sports.html" title="sports">SPORTS</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
 </header>
 <!-- 3 most recent posts -->
 <main class="container">
