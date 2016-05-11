@@ -15,8 +15,10 @@ header {
     background-color: #d0d0d0;
 }
 
+
 .imghead > h1 {
     font-size: 100px;
+    margin-top: 0px;
 }
 
 .navbar-custom {
