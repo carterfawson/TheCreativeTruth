@@ -7,8 +7,9 @@
     background-position: center bottom;
     background-size: cover; **/
     height: 175px;
-    color: #00b0ff;
+    background-color: #00b0ff;
     text-align: center;
+    vertical-align: middle;
 }
 
 .imghead > h1 {
