@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.imghead > h1 {
+    font-size: 100px;
+}
+
 .navbar-custom {
     background-color: #ffffff;
     border: none;
