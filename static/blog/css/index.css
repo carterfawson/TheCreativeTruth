@@ -3,12 +3,12 @@
 .img-headline {margin: 0 auto}
 
 .imghead {
-    background-image: url('/static/blog/images/header.jpeg');
+    /**background-image: url('/static/blog/images/header.jpeg');
     background-position: center bottom;
-    background-size: cover;
-    height: 200px;
-    color: #ffffff;
-    margin-top: 0;
+    background-size: cover; **/
+    height: 175px;
+    color: #00b0ff;
+    text-align: center;
 }
 
 .navbar-custom {
