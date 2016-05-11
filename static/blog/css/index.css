@@ -11,8 +11,12 @@
     text-align: center;
 }
 
+nav {
+    color: #010101;
+}
+
 .imghead > h1 {
-    font-size: large;
+    font-size: 100px;
 }
 
 .navbar-custom {
