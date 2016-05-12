@@ -6,4 +6,4 @@ $(document).ready(function() {
         $(".nav-hide").toggle("slow");
     })
 
-}
+});
