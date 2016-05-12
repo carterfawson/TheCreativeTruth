@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".hide-search").hide();
+    $("h1").hide();
     $(".nav-drop").click(function() {
         $(".hide-search").toggle("fast");
         $(".nav-hide").toggle("slow");
