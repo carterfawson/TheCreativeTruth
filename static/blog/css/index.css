@@ -63,4 +63,12 @@ body {
     .thin-nav-toggle {
         display: inline;
     }
+
+    .imghead > h1 {
+    font-size: 70px;
+    }
+
+    .thin-search-off {
+        display: none;
+    }
 }
