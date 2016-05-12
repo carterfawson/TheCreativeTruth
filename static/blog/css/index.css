@@ -71,4 +71,8 @@ body {
     .thin-search-off {
         display: none;
     }
+
+    nav {
+        height: 35px;
+    }
 }
