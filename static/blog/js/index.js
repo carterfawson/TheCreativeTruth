@@ -1,9 +1,8 @@
 $(document).ready(function() {
 
-    $(".hide-search").hide();
-    $(".nav-drop").click(function() {
-        $(".hide-search").toggle("fast");
-        $(".nav-hide").toggle("slow");
+    $(".thin-nav").hide();
+    $(".thin-nav-toggle").click(function() {
+        $(".thin-nav").toggle("slow");
     })
 
 });

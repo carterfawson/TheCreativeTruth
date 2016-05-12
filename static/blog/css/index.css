@@ -50,3 +50,17 @@ body {
 .nav-rule {
     margin-top: 0px;
 }
+
+.thin-nav-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .wide-nav {
+        display: none !important;
+    }
+
+    .thin-nav-toggle {
+        display: inline;
+    }
+}
