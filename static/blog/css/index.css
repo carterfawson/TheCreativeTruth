@@ -62,6 +62,7 @@ body {
 
     .thin-nav-toggle {
         display: inline;
+        height: 35px;
     }
 
     .imghead > h1 {
@@ -72,7 +73,4 @@ body {
         display: none;
     }
 
-    nav {
-        height: 35px;
-    }
 }
