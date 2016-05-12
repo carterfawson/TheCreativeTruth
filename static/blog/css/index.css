@@ -52,7 +52,7 @@ body {
 }
 
 .thin-nav-toggle {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 750px) {
@@ -65,7 +65,7 @@ body {
     }
 
     .imghead > h1 {
-    font-size: 70px;
+    font-size: 60px;
     }
 
     .thin-search-off {
