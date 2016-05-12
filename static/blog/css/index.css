@@ -57,7 +57,7 @@ body {
 
 @media screen and (max-width: 750px) {
     .wide-nav {
-        display: none !important;
+        display: none;
     }
 
     .thin-nav-toggle {
