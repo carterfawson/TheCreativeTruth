@@ -63,6 +63,7 @@ body {
     .thin-nav-toggle {
         display: inline;
         height: 35px;
+        font-size: 35px;
     }
 
     .imghead > h1 {
