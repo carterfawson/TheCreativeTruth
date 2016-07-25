@@ -55,6 +55,7 @@ body {
     display: none;
 }
 
+
 @media screen and (max-width: 750px) {
     .wide-nav {
         display: none;
@@ -65,6 +66,7 @@ body {
         font-size: 28px;
         padding-left: 10px;
     }
+
 
     .imghead > h1 {
     font-size: 60px;

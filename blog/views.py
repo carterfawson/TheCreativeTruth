@@ -12,6 +12,16 @@ def home(request):
         context
     )
 
+def about(request):
+    assert isinstance(request, HttpRequest)
+
+    context = RequestContext(request)
+    return render(
+        request,
+        '../../TheCreativeTruth/templates/about.html',
+        context
+    )
+
 def post(request):
     assert isinstance(request, HttpRequest)
 
